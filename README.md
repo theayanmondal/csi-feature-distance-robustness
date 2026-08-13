@@ -4,6 +4,19 @@ Code accompanying the paper **“On the Robustness of CSI Features and Distance 
 
 The repository contains the CAEZ-5G and DICHASUS experiments used to compare CSI feature representations and distance metrics for indoor positioning.
 
+## Datasets
+
+The experiments use the publicly available CAEZ-5G and DICHASUS datasets. The datasets are not included in this repository and can be obtained from their official sources.
+
+- **CAEZ-5G:** [CAEZ: CSI Acquisition at ETH Zurich](https://iip.ethz.ch/datasets/caez.html). We use the CAEZ-5G indoor measurements. Please cite:
+
+  > R. Wiesmayr, F. Zumegen, S. Taner, C. Dick, and C. Studer, “CSI-Based User Positioning, Channel Charting, and Device Classification with an NVIDIA 5G Testbed,” *Asilomar Conference on Signals, Systems, and Computers*, 2025.
+
+- **DICHASUS:** [dichasus-cf0x](https://dichasus.inue.uni-stuttgart.de/datasets/data/dichasus-cf0x/). We use the `dichasus-cf02` to `dichasus-cf07` measurements. Please cite:
+
+  > F. Euchner and M. Gauger, “CSI Dataset dichasus-cf0x: Distributed Antenna Setup in Industrial Environment, Day 1,” *DaRUS*, 2022. DOI: [10.18419/DARUS-2854](https://doi.org/10.18419/DARUS-2854).
+
+
 ## Repository layout
 
 ```text
