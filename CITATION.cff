@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying paper."
+title: "CSI Feature and Distance Robustness for Indoor Positioning"
+type: software
+authors:
+  - family-names: Mondal
+    given-names: Ayan
+    orcid: "https://orcid.org/0000-0001-9196-1904"
+  - family-names: Garau Burguera
+    given-names: Pere
+    orcid: "https://orcid.org/0000-0002-3075-0334"
+  - family-names: Srinivasan
+    given-names: Ashvin
+    orcid: "https://orcid.org/0009-0001-9077-117X"
+  - family-names: Batool
+    given-names: Memoona
+    orcid: "https://orcid.org/0009-0009-9664-3468"
+  - family-names: Al-Tous
+    given-names: Hanan
+    orcid: "https://orcid.org/0000-0001-8353-6289"
+  - family-names: Tirkkonen
+    given-names: Olav
+    orcid: "https://orcid.org/0000-0002-2611-1636"
+year: 2026
+preferred-citation:
+  type: conference-paper
+  title: "On the Robustness of CSI Features and Distance Metrics for Indoor Positioning: Evidence from CAEZ-5G and DICHASUS"
+  authors:
+    - family-names: Mondal
+      given-names: Ayan
+    - family-names: Garau Burguera
+      given-names: Pere
+    - family-names: Srinivasan
+      given-names: Ashvin
+    - family-names: Batool
+      given-names: Memoona
+    - family-names: Al-Tous
+      given-names: Hanan
+    - family-names: Tirkkonen
+      given-names: Olav
+  year: 2026
+  conference:
+    name: "IPIN-WCAL 2026"
