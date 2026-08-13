@@ -2,3 +2,6 @@ numpy
 tqdm
 tensorflow
 joblib
+pandas
+scipy
+openpyxl
