@@ -21,6 +21,7 @@ The experiments use the publicly available CAEZ-5G and DICHASUS datasets. The da
 
 ```text
 code/
+├── compare_results.py
 ├── caez5g/
 │   ├── prepare_data.py
 │   ├── anchor_avd.py
@@ -50,6 +51,7 @@ code/
 ```
 
 The two dataset folders use matching filenames for corresponding experiments.
+`compare_results.py` produces the comparative NPR and ranking results reported across the two datasets.
 
 ## CSI representations
 
@@ -142,7 +144,15 @@ python code/dichasus/anchor_avd.py
 python code/caez5g/avg50_avd.py
 ```
 
-Datasets and generated outputs are not included in the repository.
+The datasets and generated metric files are not included in the repository.
+
+## Comparative results
+
+The final comparisons across CAEZ-5G and DICHASUS can be obtained from the experiment metric files using:
+
+```bash
+python code/compare_results.py
+```
 
 ## Dependencies
 
